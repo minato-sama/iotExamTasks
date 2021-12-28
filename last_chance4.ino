@@ -1,5 +1,7 @@
 #include <SoftwareSerial.h>
 
+#только для двух плат
+
 SoftwareSerial mySerial(10, 11);
 void setup() {
   pinMode(10, INPUT);
